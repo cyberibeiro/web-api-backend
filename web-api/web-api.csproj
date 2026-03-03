@@ -127,6 +127,8 @@
     <Compile Include="Tools\Logger.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="appSettings.config" />
+    <Content Include="connections.config" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
