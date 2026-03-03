@@ -1,0 +1,18 @@
+Data: 29/10/2025 13:18:32
+Mensagem: Referência de objeto não definida para uma instância de um objeto.
+StackTrace:   em biblioteca_api.Controllers.LivrosController.Get(Int32 id) na C:\Users\werbi\Documents\Curso - JN Moura\Back-End\C#\web\biblioteca-api\Controllers\LivrosController.cs:linha 51
+---------------------------------------------------
+
+Data: 29/10/2025 13:20:22
+Mensagem: Referência de objeto não definida para uma instância de um objeto.
+StackTrace:   em biblioteca_api.Controllers.LivrosController.Get(Int32 id) na C:\Users\werbi\Documents\Curso - JN Moura\Back-End\C#\web\biblioteca-api\Controllers\LivrosController.cs:linha 51
+---------------------------------------------------
+
+Data: 07/11/2025 16:43:06
+Mensagem: Tentativa inválida de leitura quando não existem dados.
+StackTrace:   em System.Data.SqlClient.SqlDataReader.CheckDataIsReady(Int32 columnIndex, Boolean allowPartiallyReadColumn, Boolean permitAsync, String methodName)
+   em System.Data.SqlClient.SqlDataReader.TryReadColumn(Int32 i, Boolean setTimeout, Boolean allowPartiallyReadColumn)
+   em System.Data.SqlClient.SqlDataReader.GetString(Int32 i)
+   em biblioteca_api.Repositories.Livro.Get(Int32 id) na C:\Users\werbi\Documents\Curso - JN Moura\Back-End\C#\web\biblioteca-api\Repositories\Livro.cs:linha 73
+   em biblioteca_api.Controllers.LivrosController.Get(Int32 id) na C:\Users\werbi\Documents\Curso - JN Moura\Back-End\C#\web\biblioteca-api\Controllers\LivrosController.cs:linha 74
+---------------------------------------------------
